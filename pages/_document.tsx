@@ -24,9 +24,9 @@ export default class SsrStyledDocument extends Document<
         <Head>
           <title>Alice.dk</title>
           {this.props.styleTags}
-          <GlobalStyles />
         </Head>
         <body>
+          <GlobalStyles />
           <Main />
           <NextScript />
         </body>

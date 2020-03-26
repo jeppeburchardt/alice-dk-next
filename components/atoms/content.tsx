@@ -14,7 +14,7 @@ export default styled.div.attrs({ role: "main" })`
   h4,
   h5,
   h6 {
-    font-family: "Stardos Stencil", cursive;
+    font-family: "Stardos Stencil", sans;
     font-weight: normal;
     line-height: 1;
     text-transform: uppercase;

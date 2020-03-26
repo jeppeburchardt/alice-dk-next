@@ -48,7 +48,7 @@ const MenuList = styled.div`
 
 const MenuItem = styled.a`
   font-size: 16px;
-  font-family: "Stardos Stencil", cursive;
+  font-family: "Stardos Stencil", sans;
   text-decoration: none;
   text-transform: uppercase;
   background: #fff;

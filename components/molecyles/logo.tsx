@@ -11,7 +11,7 @@ const Header = styled.div`
   margin: 8px;
   padding: 8px 16px;
   font-size: 33px;
-  font-family: "Stardos Stencil", cursive;
+  font-family: "Stardos Stencil", sans;
   font-weight: normal;
 
   > a {

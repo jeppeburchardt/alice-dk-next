@@ -5,7 +5,7 @@ const Footer = styled.footer`
   padding: 60px 20px 60px 20px;
   text-align: center;
   color: #666;
-  font-family: "Stardos Stencil",cursive;
+  font-family: "Stardos Stencil",sans;
   text-transform: uppercase;
 `;
 

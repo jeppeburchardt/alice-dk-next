@@ -8,7 +8,7 @@ export const CardTitle = styled.div<{ color: Color }>`
   left: 0;
   margin: 12px;
   padding: 4px 8px;
-  font-family: "Stardos Stencil", cursive;
+  font-family: "Stardos Stencil", sans;
   text-transform: uppercase;
   font-size: 18px;
   background-color: ${props => props.color};
