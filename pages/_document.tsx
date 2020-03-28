@@ -1,7 +1,5 @@
 import Document, { Head, Main, NextScript } from "next/document";
 import { ServerStyleSheet } from "styled-components";
-import GlobalStyles from "../components/atoms/globalstyle";
-import Navigation from "../components/molecyles/navigation";
 
 interface SsrStyledDocumentProps {
   styleTags: any;
@@ -24,9 +22,9 @@ export default class SsrStyledDocument extends Document<
         <Head>
           <title>Alice.dk</title>
           {this.props.styleTags}
+          <meta name="description">Alice Sjurkalina</meta>
         </Head>
         <body>
-          <GlobalStyles />
           <Main />
           <NextScript />
         </body>
