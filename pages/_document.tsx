@@ -19,11 +19,7 @@ export default class SsrStyledDocument extends Document<
   render() {
     return (
       <html>
-        <Head>
-          <title>Alice.dk</title>
-          {this.props.styleTags}
-          <meta name="description">Alice Sjurkalina</meta>
-        </Head>
+        <Head>{this.props.styleTags}</Head>
         <body>
           <Main />
           <NextScript />
